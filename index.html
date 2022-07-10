@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            background: url('./pexels-daniel-absi-952670.jpg');
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color:#fff;
+        }
+
+        /* h1 {
+            padding: 10px;
+            background-color: #ffffff9a;
+            filter: drop-shadow(5px);
+            color: black;
+            text-align: center;
+            font-size: 45px;
+            word-spacing: 10px;
+            letter-spacing: 14px;
+            font-family: arial;
+            font-weight: bolder;
+            color: #024b02;
+        } */
+
+        .Line_Y {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+            border: 1px dotted #ffffff;
+        }
+
+        .Line_X {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            border: 1px dotted #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Hello Shahin</h1> -->
+    <h2>
+        X_velue is:- ( <span class="X_here"></span> px ) <br>
+        Y_velue is:- ( <span class="Y_here"></span> px )
+    </h2>
+
+    <div class="Line_Y"></div>
+    <div class="Line_X"></div>
+<script src="./Script.js"></script>
+</body>
+
+</html>
